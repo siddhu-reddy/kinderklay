@@ -20,8 +20,8 @@
 }
 
 .logo {
-    width: 150px;
-    height: 70px;
+    width: 160px;
+    height: 80px;
 }
 
 .menuSection {
@@ -49,12 +49,18 @@
     display: flex;
     padding-left: 100px;
     gap: 50px;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .icon {
     color: #333;
     font-size: 20px;
     transition: color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .icon:hover {

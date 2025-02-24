@@ -12,22 +12,22 @@ const Nav = () => {
       </div>
       <div className="menuSection">
         <NavLink exact to="/" activeClassName="activeLink">
-          Home
+          <h1>Home</h1>
         </NavLink>
         <NavLink to="/admission" activeClassName="activeLink">
-          Admission
+          <h1>Admission</h1>
         </NavLink>
         <NavLink to="/franchise" activeClassName="activeLink">
-          Franchise
+          <h1>Franchise</h1>
         </NavLink>
         <NavLink to="/branches" activeClassName="activeLink">
-          Branches
+          <h1>Branches</h1>
         </NavLink>
         <NavLink to="/blog" activeClassName="activeLink">
-          Blog
+          <h1>Blog</h1>
         </NavLink>
         <NavLink to="/contact" activeClassName="activeLink">
-          Contact
+          <h1>Contact</h1>
         </NavLink>
       </div>
       <div className="socialIcons">

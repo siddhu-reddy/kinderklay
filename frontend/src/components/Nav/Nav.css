@@ -1,0 +1,54 @@
+.navbarContainer {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.logoSection {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.menuSection {
+    display: flex;
+    gap: 10px;
+}
+
+.menuSection a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.activeLink {
+    color: #3498db;
+}
+
+.socialIcons {
+    display: flex;
+    gap: 100px;
+}
+
+.icon {
+    color: #333;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.icon:hover {
+    color: #3498db;
+}

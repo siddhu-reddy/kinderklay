@@ -4,9 +4,9 @@
     top: 0;
     left: 0;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 10px 50px;
+    padding: 10px 15px;
+    /* Reduced padding for more compact layout */
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     z-index: 1000;
@@ -15,23 +15,30 @@
 .logoSection {
     display: flex;
     align-items: center;
+    padding-left: 50px;
+    /* Reduced space between logo and menu */
 }
 
 .logo {
     width: 150px;
     height: 70px;
-    margin-right: 10px;
 }
 
 .menuSection {
+    padding-left: 200px;
     display: flex;
-    gap: 10px;
+    gap: 50px;
 }
 
 .menuSection a {
     text-decoration: none;
     color: black;
     font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menuSection a:hover {
+    color: #3498db;
 }
 
 .activeLink {
@@ -40,7 +47,8 @@
 
 .socialIcons {
     display: flex;
-    gap: 100px;
+    padding-left: 100px;
+    gap: 50px;
 }
 
 .icon {

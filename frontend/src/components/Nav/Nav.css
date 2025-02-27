@@ -33,7 +33,6 @@
 .menuSection a {
     text-decoration: none;
     color: black;
-    font-weight: bold;
     transition: color 0.3s;
 }
 
@@ -63,4 +62,7 @@
 
 .navbar{
     display: block;
+    font-family: "Roboto";
+    font-weight: 100;
+    font-size: 13px;
 }

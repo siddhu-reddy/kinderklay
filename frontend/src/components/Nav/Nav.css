@@ -1,6 +1,5 @@
 .navbarContainer {
     width: 100%;
-    
     top: 0;
     left: 0;
     display: flex;
@@ -20,8 +19,8 @@
 }
 
 .logo {
-    width: 150px;
-    height: 70px;
+    width: 160px;
+    height: 80px;
 }
 
 .menuSection {
@@ -48,16 +47,35 @@
     display: flex;
     padding-left: 100px;
     gap: 50px;
+    align-items: center;
+    justify-content: center;
 }
 
 .icon {
     color: #333;
     font-size: 20px;
     transition: color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.icon:hover {
+    transform: translateY(-5px);
 }
 
-.icon:hover {
-    color: #3498db;
+.socialIcons a:nth-child(1) .icon:hover {
+    color: #3b5998;
+}
+
+.socialIcons a:nth-child(2) .icon:hover {
+    color: #E4405F;
+}
+
+.socialIcons a:nth-child(3) .icon:hover {
+    color: #FF0000;
 }
 
 .navbar{

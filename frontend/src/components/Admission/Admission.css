@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Sans+MS:wght@400&family=Fredoka+One&family=Baloo+Bhai&display=swap');
+.container {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.left-div,
+.right-div {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid ;
+}
+.inner-div {
+    padding: 10px;
+    padding-bottom: 0px;
+    border-radius: 4px;
+}
+.b{
+    font-size: 40px;
+    color: #0da1eb;
+    margin: 0px 0px 1px;
+    padding: 0px 0px 0px 5px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.c{
+    font-size: 40px;
+    margin: 0px 0px 1px;
+    padding: 0px 0px 0px 1px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.d{
+    color: #FF8000;
+    font-weight: bold;
+    font-family: 'Baloo Bhai', 'Comic Sans MS', 'Arial', sans-serif;
+}
+.e{
+    color: #008080;
+    font-weight: bold;
+    font-family: 'Baloo Bhai', 'Comic Sans MS', 'Arial', sans-serif;
+}
+.f{
+    margin: 0px 0px 1px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+    padding: 0px 0px 0px 1px;
+    color: #3b4757;
+    font-size: 20px;
+    line-height: 1.8;
+
+}
+.admission-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 1.5em;
+    color: #51FF00;
+    margin-bottom: 10px;
+}
+.admission-form input,
+.admission-form select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.admission-form input:focus,
+.admission-form select:focus {
+    border-color: #007bff;
+}
+
+.admission-form select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.admission-form input,
+.admission-form select {
+    display: block;
+    margin: 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 123, 255, 0.4);
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}

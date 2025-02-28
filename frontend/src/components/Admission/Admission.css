@@ -1,118 +1,124 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Sans+MS:wght@400&family=Fredoka+One&family=Baloo+Bhai&display=swap');
+
 .container {
     display: flex;
-    gap: 100px;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     padding: 20px;
+    background-image: url('../../assets/backgroundpic.jpg');
+    background-size: cover 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    gap: 30px;
 }
 
-.left-div,
+.left-div{
+    flex: 1;
+    padding: 20px;
+    padding-top: 0px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 550px;
+    position: relative;
+}
 .right-div {
     flex: 1;
-    padding: 10px;
-    border: 1px solid ;
+    padding: 20px;
+    padding-top: 0px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 600px;
 }
+
 .inner-div {
     padding: 10px;
     padding-bottom: 0px;
     border-radius: 4px;
 }
-.b{
+
+.c {
     font-size: 40px;
-    color: #0da1eb;
-    margin: 0px 0px 1px;
-    padding: 0px 0px 0px 5px;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    margin: 0;
+    padding: 5px 0;
+    color: #333;
 }
-.c{
-    font-size: 40px;
-    margin: 0px 0px 1px;
-    padding: 0px 0px 0px 1px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
-.d{
+
+.d {
     color: #FF8000;
     font-weight: bold;
     font-family: 'Baloo Bhai', 'Comic Sans MS', 'Arial', sans-serif;
 }
-.e{
+
+.e {
     color: #008080;
     font-weight: bold;
     font-family: 'Baloo Bhai', 'Comic Sans MS', 'Arial', sans-serif;
 }
-.f{
-    margin: 0px 0px 1px;
-    margin-bottom: 40px;
-    margin-top: 0px;
-    padding: 0px 0px 0px 1px;
-    color: #3b4757;
+
+.f {
+    color: black;
     font-size: 20px;
     line-height: 1.8;
-
+    margin: 0 0 40px;
+    padding: 0 0 0 1px;
+    font-family: 'Comic Sans MS', 'Arial', sans-serif;
 }
-.admission-form {
+
+.new-form-container {
+    background: #e8dff5;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px 30px;
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+}
+
+.new-form-title {
+    background: #ffd800;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    color: #333;
+    margin: -20px -30px 20px -30px;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+.new-enquiry-form {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.form-title {
-    text-align: center;
-    font-size: 1.5em;
-    color: #51FF00;
-    margin-bottom: 10px;
-}
-.admission-form input,
-.admission-form select {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 14px;
-    outline: none;
-    transition: border 0.3s;
-}
-
-.admission-form input:focus,
-.admission-form select:focus {
-    border-color: #007bff;
-}
-
-.admission-form select {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-color: #fff;
-    cursor: pointer;
-}
-
-.admission-form input,
-.admission-form select {
-    display: block;
-    margin: 0;
-}
-
-.button-container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.submit-button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
+.new-enquiry-form input {
+    border-radius: 25px;
     border: none;
-    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: box-shadow 0.3s;
+}
+
+.new-enquiry-form input:focus {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.submit-button {
+    background: linear-gradient(to right, #a64bf4, #7b1fa2);
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 0;
     cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0, 123, 255, 0.4);
-    transition: background-color 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .submit-button:hover {
-    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
 }

@@ -9,32 +9,47 @@
 .hero-content{
     display: flex;
     flex-direction: column;
-    height: 100%;
-    background-color:blue;
+    height:500px;
     justify-content: center;
     padding:20px;
-    text-align: left;
+    text-align:center;
+    background-image: url("../../assets/blob-h.png");
+    background-size: cover; /* Ensures it covers the div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating */
+    width: 100%;
     
+    overflow: hidden;
 }
+
 .hero-heading{
     display: block;
     font-family: fredoka;
     font-size: 50px;
     font-weight: 700;
+    padding: 20px;
+    padding-left: 60px;
 }
 .hero-desc{
     display: block;
     font-family: roboto;
     font-size: 25px;
+    padding: 20px;
+    padding-top: 10px;
 
 }
 .hero-button{
     display: block;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    font-family: roboto;
+    font-weight: 400;
 }
 .hero-image{
     padding: 30px;
-    
-    background-color:aquamarine;
+/*     
+    background-color:aquamarine; */
     margin-right: 0;
     padding-right: 0;
     height: 500px;

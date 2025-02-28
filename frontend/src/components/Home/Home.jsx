@@ -6,7 +6,8 @@ function Home() {
   <>
     <div className='hero'>
         <div className='hero-content'>
-            <div className='hero-heading'>Build a founation<br/>
+            <div className='hero-heading'>Build a 
+              <br/>founation<br/>
                  for a life time <br/>
                  of learning</div>
             <div className='hero-desc'>Admissions open</div>

@@ -6,7 +6,7 @@ import Admission from "./components/Admission/Admission";
 import Franchise from "./components/Franchise/Franchise";
 import Branches from "./components/Branches/Branches";
 import Blog from "./components/Blog/Blog";
-import Contact from "./components/Contact/Contact";
+import About_us from "./components/About_Us/About_Us";
 
 function App() {
   return (
@@ -17,11 +17,12 @@ function App() {
         <div className="pagecontainer">
           <Routes>
             <Route path="/" element={<Home/>} />
+            <Route path="/About_Us" element={<About_us/>} />
             <Route path="/Admission" element={<Admission/>} />
             <Route path="/Franchise" element={<Franchise/>} />
             <Route path="/Branches" element={<Branches/>} />
             <Route path="/Blog" element={<Blog/>} />
-            <Route path="/Contact" element={<Contact/>} />
+            
           </Routes>
         </div>
         

@@ -13,11 +13,12 @@ const Nav = () => {
         </div>
         <div className="menuSection">
           <Link to="/" ><h1>Home</h1></Link>
+          <Link to="/About_Us" ><h1>About Us</h1></Link>
           <Link to="/Admission" ><h1>Admission</h1></Link>
           <Link to="/Franchise" ><h1>Franchise</h1></Link>
           <Link to="/Branches" ><h1>Branches</h1> </Link>
           <Link to="/Blog" ><h1>Blog</h1></Link>
-          <Link to="/Contact" ><h1>Contact</h1></Link>
+          
         </div>
 
         <div className="socialIcons">

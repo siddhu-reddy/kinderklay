@@ -1,5 +1,4 @@
 import React from 'react';
-import AdmissionImage from '../../assets/Admission.jpeg';
 import backgroundpic from '../../assets/backgroundpic.jpg';
 import "./Admission.css";
 
@@ -27,12 +26,12 @@ function Admission() {
               <input type="text" placeholder="State/District*" required />
               <input type="text" placeholder="City*" required />
               <input type="text" placeholder="Location*" required />
-              
               <button type="submit" className="submit-button">Submit</button>
             </form>
           </div>
         </div>
       </div>
+
     </div>
   );
 }

@@ -7,6 +7,8 @@ import Franchise from "./components/Franchise/Franchise";
 import Branches from "./components/Branches/Branches";
 import Blog from "./components/Blog/Blog";
 import About_us from "./components/About_Us/About_Us";
+import Footer from "./components/Footer/Footer";
+
 
 function App() {
   return (
@@ -22,14 +24,11 @@ function App() {
             <Route path="/Franchise" element={<Franchise/>} />
             <Route path="/Branches" element={<Branches/>} />
             <Route path="/Blog" element={<Blog/>} />
-            
           </Routes>
         </div>
-        
+        <Footer />
       </Router>
     </>
-    
   );
 }
-
 export default App;

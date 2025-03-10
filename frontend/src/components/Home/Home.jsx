@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from "../../components/Nav/Nav";
 import heroimage from "../../assets/heroimage.jpg";
 import home2image from "../../assets/bike-.png";
 import wave1 from "../../assets/wave1.png";
@@ -10,6 +11,8 @@ function Home() {
   return (
   <>
     <div className='home1'>
+        <Nav/>
+        
 abc
     </div>
     <div className='hero'>

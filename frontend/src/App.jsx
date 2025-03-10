@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Nav from "./components/Nav/Nav";
 import Home from "./components/Home/Home";
+import Admin from "./components/Admin/Admin"
 import Admission from "./components/Admission/Admission";
 import Franchise from "./components/Franchise/Franchise";
 import Branches from "./components/Branches/Branches";
@@ -15,10 +15,11 @@ function App() {
     <>
       
       <Router>
-        <Nav />
+        
         <div className="pagecontainer">
           <Routes>
             <Route path="/" element={<Home/>} />
+            <Route path="/Admin" element={<Admin/>} />
             <Route path="/About_Us" element={<About_us/>} />
             <Route path="/Admission" element={<Admission/>} />
             <Route path="/Franchise" element={<Franchise/>} />

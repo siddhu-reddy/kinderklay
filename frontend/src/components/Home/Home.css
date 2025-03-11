@@ -66,9 +66,23 @@
 }
 .home1{
     height: 100vh;
+    display: block;
+    width: 100%;
+    background-position-y: -120px;
+    background-repeat: no-repeat;
 
-    background-image: url("../../assets/IMG_4113.JPG");
+    /*background-image: url("../../assets/IMG_4113.JPG");*/
     background-size: 100% 100%;
+    background-color: aqua;
+}
+.home1-content{
+    display: inline;
+    justify-self: center;
+    align-self: center;
+    background-color: #64ce08;
+}
+.home1-heading{
+    color: #920000;
 }
 .home2{
     display: grid;

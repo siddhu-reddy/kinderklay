@@ -11,6 +11,7 @@ const db=mysql.createConnection({
     password: "",
     database: "kinderklay"
 })
+
 app.get('/',(req,res)=>{
     return res.json("hii");
 })

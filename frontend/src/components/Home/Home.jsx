@@ -1,5 +1,4 @@
 import React from 'react';
-import Nav from "../../components/Nav/Nav";
 import heroimage from "../../assets/heroimage.jpg";
 import home2image from "../../assets/bike-.png";
 import wave1 from "../../assets/wave1.png";
@@ -10,8 +9,18 @@ import "./Home.css";
 function Home() {
   return (
   <>
+    <div className='home1'>
+        <div className='home1-content'>
+            <div className='home1-heading'>
+                your kids can learn<br/>
+                while having fun
+            </div>
+            <div className='home1-desc'>
+                checkout our KinderKlay
+            </div>
+        </div>
+    </div>
     <div className='hero'>
-
         <div className='hero-content'>
             <div className='hero-heading'>Build a 
               <br/>founation<br/>

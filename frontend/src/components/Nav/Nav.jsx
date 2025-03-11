@@ -6,7 +6,8 @@ import logo from "../../assets/logo.png";
 
 const Nav = () => {
   return (
-    <div className="navbar">
+    <div className="main">
+      <div className="navbar">
       <nav className="navbarContainer">
         <div className="logoSection">
           <img src={logo} alt="Logo" className="logo" />
@@ -33,6 +34,9 @@ const Nav = () => {
         </div>
       </nav>
     </div>
+    <div className="border"></div>
+    </div>
+  
   );
 };
 

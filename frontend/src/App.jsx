@@ -8,6 +8,7 @@ import Branches from "./components/Branches/Branches";
 import Blog from "./components/Blog/Blog";
 import About_us from "./components/About_Us/About_Us";
 import Footer from "./components/Footer/Footer";
+import Nav from "./components/Nav/Nav";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <>
       
       <Router>
+        <Nav />
         
         <div className="pagecontainer">
           <Routes>

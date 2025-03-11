@@ -10,11 +10,6 @@ import "./Home.css";
 function Home() {
   return (
   <>
-    <div className='home1'>
-        <Nav/>
-        
-abc
-    </div>
     <div className='hero'>
 
         <div className='hero-content'>

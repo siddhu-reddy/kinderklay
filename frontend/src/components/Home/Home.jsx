@@ -114,6 +114,7 @@ function Home() {
         </div>
         <img src={wave2} className='home3-img'></img>
     </div>
+    
     </div>
   </>
 
@@ -121,4 +122,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Home;

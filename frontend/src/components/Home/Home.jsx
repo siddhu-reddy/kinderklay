@@ -3,8 +3,12 @@ import heroimage from "../../assets/heroimage.jpg";
 import home2image from "../../assets/bike-.png";
 import wave1 from "../../assets/wave1.png";
 import wave2 from "../../assets/wave2.png";
-import item1 from "../../assets/color-palette.png"
-import item2 from "../../assets/puzzle.png"
+import item1 from "../../assets/color-palette.png";
+import item2 from "../../assets/puzzle.png";
+import item3 from "../../assets/toys.png";
+import item4 from "../../assets/languages.png";
+import item5 from "../../assets/balloons.png";
+import item6 from "../../assets/vegetable.png";
 import "./Home.css";
 function Home() {
   return (
@@ -12,12 +16,19 @@ function Home() {
     <div className='home1'>
         <div className='home1-content'>
             <div className='home1-heading'>
-                your kids can learn<br/>
+                your kids can learn
                 while having fun
             </div>
-            <div className='home1-desc'>
-                checkout our KinderKlay
+            <div className='home1-tag'>
+                checkout our new learning methods
             </div>
+            <div className='home1-desc'>
+            Discover a fun and engaging way for your child to learn and grow. At KinderKlay, we make learning exciting through creative play and hands-on activities!
+            </div>
+            <div className='home1-button'>
+                <button className='button'>Enroll Now</button>
+            </div>
+            
         </div>
     </div>
     <div className='hero'>
@@ -70,28 +81,28 @@ function Home() {
                     </div>
                 </div>
                 <div className='home3-item'>
-                    <img src={item1} className='item-img'></img>
+                    <img src={item3} className='item-img'></img>
                     <div className='item-content'>
                         <div className='item-heading'>Activity Rooms</div>
                         <div className='item-desc'>Fun-filled spaces with interactive toys and games to enhance teamwork, creativity, and learning.</div>
                     </div>
                 </div>
                 <div className='home3-item'>
-                    <img src={item1} className='item-img'></img>
+                    <img src={item4} className='item-img'></img>
                     <div className='item-content'>
                         <div className='item-heading'>Languages</div>
                         <div className='item-desc'>Introducing new languages through songs and stories, making learning fun and engaging.</div>
                     </div>
                 </div>
                 <div className='home3-item'>
-                    <img src={item1} className='item-img'></img>
+                    <img src={item5} className='item-img'></img>
                     <div className='item-content'>
                         <div className='item-heading'>Birthday Party</div>
                         <div className='item-desc'>Themed celebrations with fun activities and decorations for a memorable birthday experience.</div>
                     </div>
                 </div>
                 <div className='home3-item'>
-                    <img src={item1} className='item-img'></img>
+                    <img src={item6} className='item-img'></img>
                     <div className='item-content'>
                         <div className='item-heading'>Healthy Food</div>
                         <div className='item-desc'>Nutritious, balanced meals made from fresh ingredients to keep kids healthy and energized.</div>

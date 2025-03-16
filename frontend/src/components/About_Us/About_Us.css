@@ -2,8 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: beige;
     padding: 10px;
+    margin-top: 10px;
 }
 .image-container {
     flex: 1;
@@ -64,12 +65,15 @@
     color: black;
     font-weight: bold;
     padding-top: 20px;
-    padding-left: 10px;
+    padding-left: 20px;
     font-family: nunito;
 }
 .carousel-text {
     color: #12265A;
-    margin-left: 10px;
+    margin-left: 20px;
     font-family: nunito;
     max-width: 60%;
 }
+
+
+

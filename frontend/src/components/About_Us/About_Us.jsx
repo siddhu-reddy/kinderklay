@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./About_Us.css";
 import logo from "../../assets/kinderpic.jpeg";
-import bg1 from "../../assets/carosal1.jpg";
+import bg1 from "../../assets/carosal5.png";
 import bg2 from "../../assets/carosal2.jpg";
 import bg3 from "../../assets/carosal3.jpg";
 
@@ -41,7 +41,6 @@ export default function AboutUs() {
         </div>
       </div>
       
-
       {/* Background Image Carousel */}
       <div
         className="mid-div"

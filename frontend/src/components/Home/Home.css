@@ -82,7 +82,7 @@
 .home1-heading{
     font-size: 46px;
     color: #12265A;
-    font-weight: 900 !important;
+    font-weight: 900;
 }
 .home1-desc{
     color: #70747f;
@@ -146,7 +146,7 @@
 .home2-heading{
     font-size: 46px;
     color: #12265A;
-    font-weight: 900 !important;
+    font-weight: 900;
 }
 .home2-desc{
     color: #70747f;
@@ -157,30 +157,29 @@
 }
 .home3{
     gap: 0px;
-}
-.home3-img{
-    width: 100%;
-    height: 150px;
-    display: block;
-
+    background-image: url("../../assets/gradient.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 50px;
+    margin: 0px;
+    
 }
 .home3-content{
     justify-items: center;
     font-family: nunito;
-    background-color: #001b98;
     height: 500px;
     padding: 30px;
 }
 .home3-heading {
     font-size: 46px;
     color:white;
-    font-weight: 900 !important;
+    font-weight: 900;
     
 }
 .home3-desc{
     text-align: center;
     max-width: 700px;
-    color: #70747f;
+    color: #EDEDED;
     line-height: 1.5;
 }
 .home3-items{
@@ -210,5 +209,76 @@
 }
 .h3-item-desc{
     color: #EDEDED;
+    line-height: 1.5;
+}
+.home4{
+    gap: 0px;
+    background-color: #F5F5DC;
+    color: black;
+    padding-top: 50px;
+    margin: 0px;
+    padding-bottom: 50px;
+    
+}
+
+.home4-content{
+    justify-items: center;
+    font-family: nunito;
+    text-align: center;
+    height: 500px;
+    padding: 30px;
+}
+.home4-heading {
+    font-size: 46px;
+    font-weight: 900;
+    
+}
+.home4-desc{
+    text-align: center;
+    max-width: 700px;
+    line-height: 1.5;
+}
+.home4-items{
+   display:flex;
+   flex-direction: row;
+   margin-top: 50px;
+   gap: 10px;
+   
+}
+.home4-item{
+    display: flex;
+    max-width: 250px;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    gap: 5px;
+}
+.h4-item-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 120px;
+    padding: 0px;
+}
+.h4-item-img img{
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain;
+
+}
+
+.h4-item-heading{
+    font-family: nunito;
+    font-size: 26px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+.h4-item-desc{
     line-height: 1.5;
 }

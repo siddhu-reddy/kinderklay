@@ -13,36 +13,34 @@ import "./Home.css";
 function Home() {
   return (
   <>
-    <div className='home1'>
-        <div className='home1-content'>
-            <div className='home1-heading'>
+    <div className='hero'>
+        <div className='hero-content'>
+            <div className='hero-heading'>
                 your kids can learn
                 while having fun
             </div>
-            <div className='home1-tag'>
+            <div className='hero-tag'>
                 checkout our new learning methods
             </div>
-            <div className='home1-desc'>
+            <div className='hero-desc'>
             Discover a fun and engaging way for your child to learn and grow. At KinderKlay, we make learning exciting through creative play and hands-on activities!
             </div>
-            <div className='home1-button'>
+            <div className='hero-button'>
                 <button className='button'>Enroll Now</button>
             </div>
             
         </div>
     </div>
-    <div className='hero'>
-        <div className='hero-content'>
-            <div className='hero-heading'>Build a 
-              <br/>founation<br/>
-                 for a life time <br/>
-                 of learning</div>
-            <div className='hero-desc'>Admissions open</div>
-            <div className='hero-button'>Enroll Now</div>
+    <div className='home1'>
+        <div className='home1-content'>
+            <div className='home1-heading'>Why Choose<br/>
+            KindeKlay Preschool?</div>
+            <div className='home1-desc'>KinderKlay Preschool is your experienced trusted partner in providing exceptional early education for your child. Here's why KinderKlay stands out as the preferred choice for parents seeking the best for their little ones</div>
+            
         </div>
 
-        <div className='hero-image' >
-            <img src={heroimage} className='hero-img'></img>
+        <div className='home1-image' >
+            <img src={heroimage} className='home1-img'></img>
         </div>
 
     </div>

@@ -18,12 +18,18 @@ function Admission() {
           <div className="new-form-container">
             <h2 className="new-form-title">Enquire Now</h2>
             <form className="new-enquiry-form">
-              <input type="text" placeholder="Name*" required />
+              <select name="program" id="program">
+                <option value="" disabled selected hidden>Select a Program</option>
+                <option value="Nursery">Nursery</option>
+                <option value="PlayGround">PlayGround</option>
+                <option value="junior K.G">junior K.G</option>
+                <option value="Senior K.G">Senior K.G</option>
+              </select>
+              <input type="text" placeholder="Student's Name*" required />
               <input type="text" placeholder="Parent's Name*" required />
               <input type="email" placeholder="Email*" required />
               <input type="tel" placeholder="Mobile*" required />
               <input type="text" placeholder="Pin Code*" required />
-              <input type="text" placeholder="State/District*" required />
               <input type="text" placeholder="City*" required />
               <input type="text" placeholder="Location*" required />
               <button type="submit" className="submit-button">Submit</button>

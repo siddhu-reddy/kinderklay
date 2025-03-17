@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Sans+MS:wght@400&family=Fredoka+One&family=Baloo+Bhai&display=swap');
+
+.container {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-image: url('../../assets/backgroundpic.jpg');
+    background-size: cover 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    gap: 30px;
+}
+
+.h1-left{
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: nunito;
+}
+.h1-heading{
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 20px;
+    font-size: 24px;
+    line-height: 1;
+    font-weight: 800;
+}
+.h1-desc{
+    font-size: 18px;
+}
+
+.kinder {
+    color: #FF8000;
+    font-weight: bold;
+    font-family: 'Baloo Bhai', 'Comic Sans MS', 'Arial', sans-serif;
+}
+
+.klay {
+    color: #008080;
+    font-weight: bold;
+    font-family: 'Baloo Bhai', 'Comic Sans MS', 'Arial', sans-serif;
+}
+
+.right-div {
+    flex: 1;
+    padding: 20px;
+    padding-top: 0px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.new-form-container {
+    background: #e8dff5;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px 30px;
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+}
+
+.new-form-title {
+    background: #ffd800;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    color: #333;
+    margin: -20px -30px 20px -30px;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+.program option{
+    color: #333;
+
+}
+
+.new-enquiry-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.new-enquiry-form input,select {
+    border-radius: 25px;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: box-shadow 0.3s;
+}
+
+.new-enquiry-form input:focus {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.submit-button {
+    background: linear-gradient(to right, #a64bf4, #7b1fa2);
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 0;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.submit-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}

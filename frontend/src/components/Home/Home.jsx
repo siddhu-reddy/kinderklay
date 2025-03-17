@@ -1,14 +1,16 @@
 import React from 'react';
 import heroimage from "../../assets/heroimage.jpg";
 import home2image from "../../assets/bike-.png";
-import wave1 from "../../assets/wave1.png";
-import wave2 from "../../assets/wave2.png";
 import item1 from "../../assets/color-palette.png";
 import item2 from "../../assets/puzzle.png";
 import item3 from "../../assets/toys.png";
 import item4 from "../../assets/languages.png";
 import item5 from "../../assets/balloons.png";
 import item6 from "../../assets/vegetable.png";
+import item7 from "../../assets/01.png";
+import item8 from "../../assets/02.png";
+import item9 from "../../assets/03.png";
+import item10 from "../../assets/04.png";
 import "./Home.css";
 function Home() {
   return (
@@ -66,7 +68,6 @@ function Home() {
 
     <div>
         <div className='home3'>
-            <img src={wave1} className='home3-img'></img>
             <div className='home3-content'>
                 <div className='home3-heading'>What We Offer</div>
                 <div className='home3-desc'>The KinderKlay’s mission is to provide affordable, high-quality early education and childcare services for working families to ensure every child.</div>
@@ -115,17 +116,37 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <img src={wave2} className='home3-img'></img>
         </div>
 
 
         <div className='home4'>
             <div className='home4-content'>
-                <div className='home4-heading'></div>
-                <div className='home4-desc'></div>
+                <div className='home4-heading'>Our Pre-school Programs</div>
+                <div className='home4-desc'>With age-appropriate stimulation, and the right balance of learning and fun, we encourage their curiosity and fuel their creative side.</div>
                 <div className='home4-items'>
                     <div className='home4-item'>
-                        
+                        <div className='h4-item-img'><img src={item7}></img></div>
+                        <div className='h4-item-heading'>PlayGround</div>
+                        <div className='h4-item-age'>(1.5-3 years)</div>
+                        <div className='h4-item-desc'>Discovery and exploration, language development, new-age skills, and shaping scientific mindset.</div>
+                    </div>
+                    <div className='home4-item'>
+                        <div className='h4-item-img'><img src={item8}></img></div>
+                        <div className='h4-item-heading'>Nursery</div>
+                        <div className='h4-item-age'>(3-4 years)</div>
+                        <div className='h4-item-desc'>Discovery and exploration, language development, new-age skills, and shaping scientific mindset.</div>
+                    </div>
+                    <div className='home4-item'>
+                        <div className='h4-item-img'><img src={item9}></img></div>
+                        <div className='h4-item-heading'>junior K.G</div>
+                        <div className='h4-item-age'>(4-5 years)</div>
+                        <div className='h4-item-desc'>Discovery and exploration, language development, new-age skills, and shaping scientific mindset.</div>
+                    </div>
+                    <div className='home4-item'>
+                        <div className='h4-item-img'><img src={item10}></img></div>
+                        <div className='h4-item-heading'>Senior K.G</div>
+                        <div className='h4-item-age'>(5-6 years)</div>
+                        <div className='h4-item-desc'>Discovery and exploration, language development, new-age skills, and shaping scientific mindset.</div>
                     </div>
                 </div>
             </div>

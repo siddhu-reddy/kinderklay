@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Sans+MS:wght@400&family=Fredoka+One&family=Baloo+Bhai&display=swap');
 
-.container {
+.container1 {
     display: grid;
     grid-template-columns: 55% 45%;
     justify-content: center;

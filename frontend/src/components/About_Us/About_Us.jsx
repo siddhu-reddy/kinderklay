@@ -8,8 +8,11 @@ import paintpic from "../../assets/paint.png";
 import piantcenter from "../../assets/paintcenter.png";
 import ballpic from "../../assets/ball.png";
 import specialp from "../../assets/special.png";
-import musicpic from "../../assets/musicpic.png";
+import musicpic from "../../assets/music.png";
 import librarypic from "../../assets/library.png";
+import sandplaypic from "../../assets/sandplay.png";
+import storypic from "../../assets/story.png";
+import waterplaypic from "../../assets/waterplay.png";
 
 const backgroundImages = [bg1, bg2, bg3];
 
@@ -58,7 +61,7 @@ export default function AboutUs() {
           <h1 className="carousel-text">Possible Start!</h1>
         </div>
       </div>
-      <div className="activity-div">
+  <div className="activity-div">
   <h2 className="activity-heading">Our Activities</h2>
   <div className="activity-grid">
     <div className="activity-item">
@@ -122,7 +125,9 @@ export default function AboutUs() {
     </div>
 
     <div className="activity-item">
-      <div className="icon-circle"></div>
+      <div className="icon-circle">
+        <img src={sandplaypic} alt="Painting Icon" />
+      </div>
       <div>
         <h3 className="activity-title">Sand Play</h3>
         <p>All year round we enjoy sand</p>
@@ -130,7 +135,9 @@ export default function AboutUs() {
     </div>
 
     <div className="activity-item">
-      <div className="icon-circle"></div>
+      <div className="icon-circle">
+        <img src={storypic} alt="Painting Icon" />
+      </div>
       <div>
         <h3 className="activity-title">Storytime</h3>
         <p>Where learning is serious fun</p>
@@ -138,15 +145,18 @@ export default function AboutUs() {
     </div>
 
     <div className="activity-item">
-      <div className="icon-circle"></div>
+      <div className="icon-circle">
+        <img src={waterplaypic} alt="Painting Icon" />
+      </div>
       <div>
         <h3 className="activity-title">Water Play</h3>
         <p>Imagine various water activities</p>
       </div>
     </div>
   </div>
-</div>
+ </div>
 
-    </div>
+
+</div>
   );
 }

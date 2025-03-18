@@ -13,6 +13,8 @@ import librarypic from "../../assets/library.png";
 import sandplaypic from "../../assets/sandplay.png";
 import storypic from "../../assets/story.png";
 import waterplaypic from "../../assets/waterplay.png";
+import missionpic from "../../assets/missionrightpic.png";
+import missionleftpic from "../../assets/missionleftpic.png";
 
 const backgroundImages = [bg1, bg2, bg3];
 
@@ -61,6 +63,21 @@ export default function AboutUs() {
           <h1 className="carousel-text">Possible Start!</h1>
         </div>
       </div>
+      <div class="mission-div">
+        <div class="mission-left">
+            <h2>Our Mission for kinderklay</h2>
+            <p>The Mission of <strong>OurKids</strong> Kinderklay is to provide a safe,
+                loving, environment in which the young child can
+                be nurtured spiritually, emotionally, intellectually, socially,
+                and physically. We pledge to work in partnership with the
+                home and the School to meet the total needs of the child.
+                We will strive to glorify God before our students and
+                their families as a witness to our community.</p>
+        </div>
+        <div class="mission-right">
+            <img src={missionpic} alt="missionpic" className="missionpic" />
+        </div>
+    </div>
   <div className="activity-div">
   <h2 className="activity-heading">Our Activities</h2>
   <div className="activity-grid">

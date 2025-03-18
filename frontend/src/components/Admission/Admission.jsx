@@ -3,6 +3,15 @@ import item7 from "../../assets/01.png";
 import item8 from "../../assets/02.png";
 import item9 from "../../assets/03.png";
 import item10 from "../../assets/04.png";
+import paintpic from "../../assets/paint.png";
+import piantcenter from "../../assets/paintcenter.png";
+import ballpic from "../../assets/ball.png";
+import specialp from "../../assets/special.png";
+import musicpic from "../../assets/music.png";
+import librarypic from "../../assets/library.png";
+import sandplaypic from "../../assets/sandplay.png";
+import storypic from "../../assets/story.png";
+import waterplaypic from "../../assets/waterplay.png";
 import "./Admission.css";
 
 function Admission() {
@@ -70,6 +79,103 @@ function Admission() {
                 </div>
             </div>
         </div>
+
+
+        <div className="activity-div">
+          <h2 className="activity-heading">Our Activities</h2>
+          <div className="activity-grid">
+            <div className="activity-item">
+              <div className="icon-circle">
+                <img src={paintpic} alt="Painting Icon" />
+              </div>
+              <div>
+                <h3 className="activity-title">Painting</h3>
+                <p className="activity-desc">Children learn to paint, and enjoy it</p>
+              </div>
+            </div>
+            
+            <div className="activity-item">
+              <div className="icon-circle">
+                <img src={piantcenter} alt="Painting Icon" />
+              </div>
+              <div>
+                <h3 className="activity-title">Puppet Centre</h3>
+                <p className="activity-desc">What you don’t have at home</p>
+              </div>
+            </div>
+  
+            <div className="activity-item">
+              <div className="icon-circle">
+                <img src={ballpic} alt="Painting Icon" />
+              </div>
+              <div>
+                <h3 className="activity-title">Table/Floor Toys</h3>
+                <p className="activity-desc">What kind of toys your kid prefer?</p>
+              </div>
+            </div>
+  
+            <div className="activity-item">
+              <div className="icon-circle">
+                <img src={specialp} alt="Painting Icon" />
+              </div>
+              <div>
+                <h3 className="activity-title">Special Projects</h3>
+                <p className="activity-desc">Our secret area education ways</p>
+              </div>
+            </div>
+  
+            <div className="activity-item">
+              <div className="icon-circle">
+                <img src={musicpic} alt="Painting Icon" />
+              </div>
+              <div>
+                <h3 className="activity-title">Music & Singing</h3>
+                <p className="activity-desc">Everybody loves child’s singing</p>
+              </div>
+            </div>
+  
+            <div className="activity-item">
+              <div className="icon-circle">
+                <img src={librarypic} alt="Painting Icon" />
+              </div>
+              <div>
+                <h3 className="activity-title">Library Reading</h3>
+                <p className="activity-desc">How many stories our teacher knows?</p>
+              </div>
+            </div>
+  
+            <div className="activity-item">
+              <div className="icon-circle">
+                <img src={sandplaypic} alt="Painting Icon" />
+              </div>
+              <div>
+                <h3 className="activity-title">Sand Play</h3>
+                <p className="activity-desc">All year round we enjoy sand</p>
+              </div>
+            </div>
+  
+            <div className="activity-item">
+              <div className="icon-circle">
+                <img src={storypic} alt="Painting Icon" />
+              </div>
+              <div>
+                <h3 className="activity-title">Storytime</h3>
+                <p className="activity-desc">Where learning is serious fun</p>
+              </div>
+            </div>
+  
+            <div className="activity-item">
+              <div className="icon-circle">
+                <img src={waterplaypic} alt="Painting Icon" />
+              </div>
+              <div>
+                <h3 className="activity-title">Water Play</h3>
+                <p className="activity-desc">Imagine various water activities</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
       </div>
       
     );

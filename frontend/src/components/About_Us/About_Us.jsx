@@ -77,101 +77,101 @@ export default function AboutUs() {
         <div class="mission-right">
             <img src={missionpic} alt="missionpic" className="missionpic" />
         </div>
-    </div>
-  <div className="activity-div">
-  <h2 className="activity-heading">Our Activities</h2>
-  <div className="activity-grid">
-    <div className="activity-item">
-      <div className="icon-circle">
-        <img src={paintpic} alt="Painting Icon" />
       </div>
-      <div>
-        <h3 className="activity-title">Painting</h3>
-        <p>Children learn to paint, and enjoy it</p>
-      </div>
-    </div>
-    
-    <div className="activity-item">
-      <div className="icon-circle">
-        <img src={piantcenter} alt="Painting Icon" />
-      </div>
-      <div>
-        <h3 className="activity-title">Puppet Centre</h3>
-        <p>What you don’t have at home</p>
-      </div>
-    </div>
+      <div className="activity-div">
+        <h2 className="activity-heading">Our Activities</h2>
+        <div className="activity-grid">
+          <div className="activity-item">
+            <div className="icon-circle">
+              <img src={paintpic} alt="Painting Icon" />
+            </div>
+            <div>
+              <h3 className="activity-title">Painting</h3>
+              <p>Children learn to paint, and enjoy it</p>
+            </div>
+          </div>
+          
+          <div className="activity-item">
+            <div className="icon-circle">
+              <img src={piantcenter} alt="Painting Icon" />
+            </div>
+            <div>
+              <h3 className="activity-title">Puppet Centre</h3>
+              <p>What you don’t have at home</p>
+            </div>
+          </div>
 
-    <div className="activity-item">
-      <div className="icon-circle">
-        <img src={ballpic} alt="Painting Icon" />
-      </div>
-      <div>
-        <h3 className="activity-title">Table/Floor Toys</h3>
-        <p>What kind of toys your kid prefer?</p>
-      </div>
-    </div>
+          <div className="activity-item">
+            <div className="icon-circle">
+              <img src={ballpic} alt="Painting Icon" />
+            </div>
+            <div>
+              <h3 className="activity-title">Table/Floor Toys</h3>
+              <p>What kind of toys your kid prefer?</p>
+            </div>
+          </div>
 
-    <div className="activity-item">
-      <div className="icon-circle">
-        <img src={specialp} alt="Painting Icon" />
-      </div>
-      <div>
-        <h3 className="activity-title">Special Projects</h3>
-        <p>Our secret area education ways</p>
-      </div>
-    </div>
+          <div className="activity-item">
+            <div className="icon-circle">
+              <img src={specialp} alt="Painting Icon" />
+            </div>
+            <div>
+              <h3 className="activity-title">Special Projects</h3>
+              <p>Our secret area education ways</p>
+            </div>
+          </div>
 
-    <div className="activity-item">
-      <div className="icon-circle">
-        <img src={musicpic} alt="Painting Icon" />
-      </div>
-      <div>
-        <h3 className="activity-title">Music & Singing</h3>
-        <p>Everybody loves child’s singing</p>
-      </div>
-    </div>
+          <div className="activity-item">
+            <div className="icon-circle">
+              <img src={musicpic} alt="Painting Icon" />
+            </div>
+            <div>
+              <h3 className="activity-title">Music & Singing</h3>
+              <p>Everybody loves child’s singing</p>
+            </div>
+          </div>
 
-    <div className="activity-item">
-      <div className="icon-circle">
-        <img src={librarypic} alt="Painting Icon" />
-      </div>
-      <div>
-        <h3 className="activity-title">Library Reading</h3>
-        <p>How many stories our teacher knows?</p>
-      </div>
-    </div>
+          <div className="activity-item">
+            <div className="icon-circle">
+              <img src={librarypic} alt="Painting Icon" />
+            </div>
+            <div>
+              <h3 className="activity-title">Library Reading</h3>
+              <p>How many stories our teacher knows?</p>
+            </div>
+          </div>
 
-    <div className="activity-item">
-      <div className="icon-circle">
-        <img src={sandplaypic} alt="Painting Icon" />
-      </div>
-      <div>
-        <h3 className="activity-title">Sand Play</h3>
-        <p>All year round we enjoy sand</p>
-      </div>
-    </div>
+          <div className="activity-item">
+            <div className="icon-circle">
+              <img src={sandplaypic} alt="Painting Icon" />
+            </div>
+            <div>
+              <h3 className="activity-title">Sand Play</h3>
+              <p>All year round we enjoy sand</p>
+            </div>
+          </div>
 
-    <div className="activity-item">
-      <div className="icon-circle">
-        <img src={storypic} alt="Painting Icon" />
-      </div>
-      <div>
-        <h3 className="activity-title">Storytime</h3>
-        <p>Where learning is serious fun</p>
-      </div>
-    </div>
+          <div className="activity-item">
+            <div className="icon-circle">
+              <img src={storypic} alt="Painting Icon" />
+            </div>
+            <div>
+              <h3 className="activity-title">Storytime</h3>
+              <p>Where learning is serious fun</p>
+            </div>
+          </div>
 
-    <div className="activity-item">
-      <div className="icon-circle">
-        <img src={waterplaypic} alt="Painting Icon" />
+          <div className="activity-item">
+            <div className="icon-circle">
+              <img src={waterplaypic} alt="Painting Icon" />
+            </div>
+            <div>
+              <h3 className="activity-title">Water Play</h3>
+              <p>Imagine various water activities</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div>
-        <h3 className="activity-title">Water Play</h3>
-        <p>Imagine various water activities</p>
-      </div>
-    </div>
-  </div>
- </div>
 
 
 </div>

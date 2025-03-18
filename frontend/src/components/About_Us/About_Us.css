@@ -78,13 +78,14 @@
     text-align: center;
     padding: 40px;
     background-color: #A6FFE7;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
 
 .activity-heading {
     font-size: 40px;
     color: #12265A;
-    margin-bottom: 70px;
+    margin-top: 10px;
+    margin-bottom: 50px;
     font-family: nunito;
 }
 
@@ -93,7 +94,7 @@
     grid-template-columns: repeat(3, 1fr);
     max-width: 900px;
     margin: auto;
-    row-gap: 50px;
+    row-gap: 30px;
     column-gap: 50px;
 }
 
@@ -139,7 +140,7 @@
 
 
 .activity-item p {
-    font-size: 16px;
+    font-size: 14px;
     color: #757575;
     margin: 0;
     font-family: 'Nunito', sans-serif;

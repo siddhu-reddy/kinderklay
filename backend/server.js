@@ -4,13 +4,22 @@ const cors = require('cors')
 
 const app=express()
 app.use(cors())
-
-const db=mysql.createConnection({
+const db = mysql.createPool({
+    connectionLimit: 10, // Limit the number of connections
     host: "localhost",
     user: "root",
     password: "",
     database: "kinderklay"
-})
+});
+
+db.on('error', (err) => {
+    console.error('Database error:', err);
+    if (err.code === 'PROTOCOL_CONNECTION_LOST') {
+        console.log('Reconnecting...');
+        db.getConnection();
+    }
+});
+
 
 app.get('/',(req,res)=>{
     return res.json("hii");

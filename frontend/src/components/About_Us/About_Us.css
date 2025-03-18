@@ -154,6 +154,50 @@
     flex-direction: column;
     justify-content: center;
 }
+.mission-div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: lightcyan;
+    padding: 50px;
+    margin-bottom: 30px;
+    background-image: url('../../assets/missionleftpic.png');
+}
+.mission-left {
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    background-color: lightcyan;
+}
+
+.mission-left h2 {
+    color: #12265A;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.mission-left p {
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    color: #70747F;
+    margin-top: 15px;
+    line-height: 1.8;
+}
+
+.mission-right {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.mission-right img {
+    max-width: 100%;
+    height: auto;
+    width: 400px;
+    border-radius: 10px;
+}
 
 
 

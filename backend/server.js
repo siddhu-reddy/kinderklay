@@ -6,10 +6,10 @@ const app=express()
 app.use(cors())
 const db = mysql.createPool({
     connectionLimit: 10, // Limit the number of connections
-    host: "localhost",
-    user: "root",
-    password: "",
-    database: "kinderklay"
+    host: "srv772.hstgr.io",
+    user: "u671397953_admin",
+    password: "HTuzen321",
+    database: "u671397953_KinderKlay"
 });
 
 db.on('error', (err) => {

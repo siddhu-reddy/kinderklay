@@ -1,0 +1,54 @@
+.review-section {
+    text-align: center;
+    padding: 50px 20px;
+    background: #fff;
+}
+
+.review-heading {
+    font-size: 40px;
+    color: #12265A;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.review-carousel {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.review-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.review-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.review-text {
+    font-size: 18px;
+    color: #666;
+    max-width: 600px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+.review-name {
+    font-size: 22px;
+    font-weight: bold;
+    color: green;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.review-role {
+    font-size: 16px;
+    color: purple;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}

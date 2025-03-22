@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./About_Us.css";
+import Parents from "../parents/parents";
 import logo from "../../assets/kinderpic.jpeg";
 import bg1 from "../../assets/carosal5.png";
 import bg2 from "../../assets/carosal2.jpg";
@@ -172,6 +173,7 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
+      <Parents/>
 
 
 </div>

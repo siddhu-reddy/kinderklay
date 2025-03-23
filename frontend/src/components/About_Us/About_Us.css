@@ -22,12 +22,12 @@
 .highlightpink {
     color: #12265A;
     text-decoration: underline;
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 .highlightyellow {
     color: #12265A;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 

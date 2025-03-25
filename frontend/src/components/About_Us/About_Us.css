@@ -4,7 +4,7 @@
     justify-content: center;
     background-color: beige;
     padding: 10px;
-    margin-top: 10px;
+    padding-bottom: 40px;
 }
 .image-container {
     flex: 1;
@@ -22,12 +22,12 @@
 .highlightpink {
     color: #12265A;
     text-decoration: underline;
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 .highlightyellow {
     color: #12265A;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 
@@ -37,9 +37,9 @@
 
 
 .heading {
-    font-size: 36px;
-    font-weight: bold;
-    line-height: 1.8;
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 1.5;
 }
 
 
@@ -49,13 +49,12 @@
     color: #70747F;
     margin-top: 15px;
     line-height: 1.8;
+    max-width: 650px;
 }
 
 .mid-div {
-    margin-top: 30px;
-    margin-bottom: 50px;
     width: 100%;
-    height: 500px;
+    height: 90vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -63,9 +62,10 @@
 }
 .carousel-subtext{
     color: orange;
-    font-weight: bold;
+    font-weight: 800;
     padding-top: 20px;
     padding-left: 20px;
+    margin: 0px;
     font-family: nunito;
 }
 .carousel-text {
@@ -172,8 +172,8 @@
 
 .mission-left h2 {
     color: #12265A;
-    font-size: 36px;
-    font-weight: bold;
+    font-size: 46px;
+    font-weight: 800;
     margin-bottom: 5px;
 }
 

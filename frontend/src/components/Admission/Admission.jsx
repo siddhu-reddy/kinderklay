@@ -19,7 +19,7 @@ function Admission() {
       <div className='main-div'>
         <div className="container1">
           <div className='h1-left'>
-            <div className='h1-heading'><h1 className=''>All About Play School <br/>Admission at <span className='kinder'>KINDER</span><span className='klay'>KLAY</span><br/> PRE SCHOOLS</h1>
+            <div className='h1-heading'><h1 className=''>All About Play School <br/>Admission at <span className='kinder'>Kinder</span><span className='klay'>Klay</span><br/> PRE SCHOOLS</h1>
             </div>
             <div className='h1-desc'>Searching for the perfect play school for your child? At KINDERKLAY, our thoughtfully designed programs and interactive learning environments nurture your child’s cognitive, physical, social, emotional, and language skills, setting a strong foundation for lifelong success. With countless satisfied parents and thousands of joyful children, our journey begins with a simple admission form. At KINDERKLAY, we don’t just prepare children for school; we prepare them for life.</div>
           </div>

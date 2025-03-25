@@ -41,10 +41,14 @@ export default function Parents() {
       >
         {reviews.map((review, index) => (
           <SwiperSlide key={index} className="review-slide">
-            <img src={review.image} alt={review.name} className="review-image" />
-            <p className="review-text">“{review.text}”</p>
-            <h3 className="review-name">{review.name}</h3>
-            <p className="review-role">{review.role}</p>
+            <div className="review-content">
+              <img src={review.image} alt={review.name} className="review-image" />
+              <div className="review-text-container">
+                <p className="review-text">“{review.text}”</p>
+                <h3 className="review-name">{review.name}</h3>
+                <p className="review-role">{review.role}</p>
+              </div>
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>

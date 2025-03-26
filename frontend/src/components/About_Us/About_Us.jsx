@@ -53,7 +53,7 @@ export default function AboutUs() {
           </p>
         </div>
       </div>
-      
+
       {/* Background Image Carousel */}
       <div
         className="mid-div"
@@ -67,17 +67,17 @@ export default function AboutUs() {
       </div>
       <div class="mission-div">
         <div class="mission-left">
-            <h2>Our Mission for kinderklay</h2>
-            <p>The Mission of <strong>OurKids</strong> Kinderklay is to provide a safe,
-                loving, environment in which the young child can
-                be nurtured spiritually, emotionally, intellectually, socially,
-                and physically. We pledge to work in partnership with the
-                home and the School to meet the total needs of the child.
-                We will strive to glorify God before our students and
-                their families as a witness to our community.</p>
+          <h2>Our Mission for kinderklay</h2>
+          <p>The Mission of <strong>OurKids</strong> Kinderklay is to provide a safe,
+            loving, environment in which the young child can
+            be nurtured spiritually, emotionally, intellectually, socially,
+            and physically. We pledge to work in partnership with the
+            home and the School to meet the total needs of the child.
+            We will strive to glorify God before our students and
+            their families as a witness to our community.</p>
         </div>
         <div class="mission-right">
-            <img src={missionpic} alt="missionpic" className="missionpic" />
+          <img src={missionpic} alt="missionpic" className="missionpic" />
         </div>
       </div>
       <div className="activity-div">
@@ -92,7 +92,7 @@ export default function AboutUs() {
               <p>Children learn to paint, and enjoy it</p>
             </div>
           </div>
-          
+
           <div className="activity-item">
             <div className="icon-circle">
               <img src={piantcenter} alt="Painting Icon" />
@@ -174,10 +174,10 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
-      <Parents/>
-      <Login/>
+      <Parents />
+      <Login />
 
 
-</div>
+    </div>
   );
 }

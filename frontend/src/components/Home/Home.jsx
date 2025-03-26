@@ -1,4 +1,5 @@
 import React from 'react';
+import Chart from "../Chart/Chart";
 import heroimage from "../../assets/heroimage.jpg";
 import home2image from "../../assets/bike-.png";
 import item1 from "../../assets/color-palette.png";
@@ -151,9 +152,10 @@ function Home() {
                 </div>
             </div>
         </div>
-    
+        <Chart />
     </div>
   </>
+
 
     
   )

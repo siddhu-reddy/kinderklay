@@ -4,7 +4,7 @@ import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "./Parents.css";
-import reviewPic1 from "../../assets/carosal2.jpg"; // Replace with actual image paths
+import reviewPic1 from "../../assets/carosal2.jpg"; 
 import reviewPic2 from "../../assets/carosal3.jpg";
 import reviewPic3 from "../../assets/carosal2.jpg";
 

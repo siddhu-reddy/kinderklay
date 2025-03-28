@@ -9,6 +9,7 @@ import Blog from "./components/Blog/Blog";
 import About_us from "./components/About_Us/About_Us";
 import Footer from "./components/Footer/Footer";
 import Nav from "./components/Nav/Nav";
+import Login from "./components/Login/Login";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <div className="pagecontainer">
           <Routes>
             <Route path="/" element={<Home/>} />
+            <Route path="/Login" element={<Login/>} />
             <Route path="/Admin" element={<Admin/>} />
             <Route path="/About_Us" element={<About_us/>} />
             <Route path="/Admission" element={<Admission/>} />
